@@ -15,3 +15,15 @@ Users can log in, create, sync, and view their notes with offline-first support.
 - **Packaging**: Electron Builder (.exe for Windows)
 
 ---
+## ⚙️ Installation & Dependencies
+- **Clone Repository**: `git clone [REPO_LINK] && cd [REPO_FOLDER]`  
+- **Install Dependencies**: `npm install`  
+- **Environment Variables**: Create a `.env` file with:  
+  - `PORT=5000`  
+  - `MONGO_URI=your_mongodb_connection_string`
+  - `JWT_SECRET`
+  - `REDIS_URI`
+- **Run Server**: `npm run dev`  
+- **Access App**: Open your browser at `http://localhost:5000`  
+
+
